@@ -1,0 +1,60 @@
+.root {
+    --cor1: #E38B29;
+    --cor2: #F1A661;
+    --cor3: #FFD8A9;
+    --cor4: #FDEEDC;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("/public/assets/background-topo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15vh;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.logo-header {
+    width: 300px;
+}
+
+.link, .login {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+
+    padding:10px;
+}
+
+.link:nth-child(1) {
+    border-right: 2px solid #fff;
+}
+
+.login {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #E38B29;
+    border-radius: 20px;
+    border: 0.2px solid #5d5d5d;
+}
+
+@media (max-width: 500px) {
+    .topo { flex-direction: column; }
+    .logo-header { margin: 10px; }
+    .links-meio { margin: 20px; }
+    .login { margin: 10px; }
+    header, .topo { height: 20vh; }
+}
