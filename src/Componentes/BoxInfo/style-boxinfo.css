@@ -1,0 +1,38 @@
+.box {
+    display: flex;
+    align-items: center;
+/*     border: 2px solid #000;
+ */    box-shadow: 0px 5px 5px #000;
+    border-radius: 15px;
+    margin: 10px auto 5px ;
+    transition: .3s ease-in-out;
+}
+
+.check {
+    width: 20%;
+}
+
+.info-box {
+    text-align: center;
+    width: 80%;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.info-box h2 {
+    font-size: 32px;
+    color: #424242;
+}
+
+.info-box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #424242;
+    padding: 10px;
+}
+
+@media (max-width:550px) {
+    .box { flex-direction: column; margin: 10px;}
+}

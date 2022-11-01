@@ -5,44 +5,30 @@
 
 .quem-usa {
     display: flex;
+    align-items: center;
+    /* justify-content: center;
+    flex-direction: column; */
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .back-quem {
     background-image: url('/public/assets/capa-quem-confia.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 200px;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: -50px;
 }
 
 .box-quem-usa {
     background-color: #ff0500;
-    width: 40%;
-    padding: 15px;
+    width: auto;
+    padding: 10px;
     border-radius: 10px;
+
 }
 
-.video {
-    margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-    .quem-usa { flex-direction: column; justify-content: center; }
-    .box-quem-usa { width: 100%; }
-    .back-quem { width: 90%;  margin-left: 30px;}
-}
-
-@media (max-width: 600px) {
-    .back-quem { background-size: contain; background-repeat: no-repeat;}
-}
-
-@media (max-width: 426px) {
-    .back-quem { margin: auto; }
-}
-
-@media (max-width: 320px) {
-    .back-quem { width: 100% ;margin-left: 0px; }
-    .box-quem-usa { margin-left: 30px }
-    .video { margin-left: 50px; }
+@media (max-width: 850px) {
+    .quem-usa { flex-direction: column; }
 }
