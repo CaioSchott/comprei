@@ -43,10 +43,27 @@ textarea {
     box-shadow: 0 5px 10px #000;
     padding: 10px;
     font-size: 22px;
-    margin-left: 250px;
+    float: right;
 }
 
-@media (max-width:400px) {
-    .form { width: 94%; }
-    .btn { margin-left: 100px; }
+.flex-form {
+    display: flex;
+    align-items: center;
+}
+
+.img-form img {
+    transition: .3s ease-in-out;
+}
+
+.img-form img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:720px){
+    .img-form { display: none; }
+}
+
+@media (max-width:700px) {
+    .form { width: 90%; margin: auto; }
+    
 }

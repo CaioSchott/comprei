@@ -3,7 +3,7 @@ import './style-forms.css';
 
 export default function Forms () {
     return (
-        <div className='container'>
+        <div className='container flex-form'>
             <form className='form' method='post'>
                 <fieldset>
                     <legend>Preencha o formulário</legend>
@@ -33,6 +33,11 @@ export default function Forms () {
                     <button className='btn' type='submit'>Enviar</button>
                 </fieldset>
             </form>
+
+            <div className='img-form'>
+                <img src='/assets/s.png' title='Tela APP Comprei Delivery' alt='Tela APP Comprei Delivery'/>
+
+            </div>
         </div>
     )
 }
