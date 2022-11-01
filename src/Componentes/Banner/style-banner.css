@@ -6,9 +6,9 @@
 .banner {
     background-image: url('/public/assets/banner(1).png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
-    height: 65vh;
+    height: 25vh;
     background-color: aquamarine;    
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .titulo-banner {
@@ -36,22 +36,30 @@
 }
 
 @media (max-width: 2580px) {
-    .banner { height: 45vh; }
+    .banner { height: 50vh; }
 }
 
-@media (max-width: 1820px) {
+@media (max-width: 1900px) {
+    .banner { height: 38vh; }
+}
+
+@media (max-width: 1425px) {
+    .banner { height: 30vh; }
+}
+
+@media (max-width: 1135px) {
     .banner { height: 25vh; }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 945px) {
     .banner { height: 18vh; }
 }
 
-@media (max-width: 750px) {
-    .banner { height: 15vh; }
+@media (max-width: 690) {
+    .banner { height: 5vh; }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .banner { display: none; }
-    .banner-secundario { display: block; }
+    .banner-secundario { display: block; height: 25vh; }
 }
