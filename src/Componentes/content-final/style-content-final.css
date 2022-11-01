@@ -1,0 +1,48 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.quem-usa {
+    display: flex;
+}
+
+.back-quem {
+    background-image: url('/public/assets/capa-quem-confia.png');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.box-quem-usa {
+    background-color: #ff0500;
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.video {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .quem-usa { flex-direction: column; justify-content: center; }
+    .box-quem-usa { width: 100%; }
+    .back-quem { width: 90%;  margin-left: 30px;}
+}
+
+@media (max-width: 600px) {
+    .back-quem { background-size: contain; background-repeat: no-repeat;}
+}
+
+@media (max-width: 426px) {
+    .back-quem { margin: auto; }
+}
+
+@media (max-width: 320px) {
+    .back-quem { width: 100% ;margin-left: 0px; }
+    .box-quem-usa { margin-left: 30px }
+    .video { margin-left: 50px; }
+}

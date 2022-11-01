@@ -1,0 +1,82 @@
+.root {
+    --cor1: #E38B29;
+    --cor2: #F1A661;
+    --cor3: #FFD8A9;
+    --cor4: #FDEEDC;
+}
+
+.maine {
+    width: 40%;
+    height: 550px;
+    background-color: #F1A661;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.secao-opcao {
+    text-align: center;
+}
+
+.link-inicial, .link-dentro {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.link-inicial {
+    background-color: #E38B29;
+    font-weight: bold;
+}
+
+.titulo-opcao {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px 0;
+}
+
+
+.politicas {
+    margin: 20px;
+    padding: 10px 15px;
+}
+
+.titulo-politicas {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.link-fora, .link-inicial {
+    padding: 15px 10px;
+    border: 2px solid #FFD8A9;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.link-fora {
+    margin: 15px 0;
+}
+
+.link-fora:hover {
+    background-color: #E38B29;
+
+}
+
+@media (max-width: 930px) {
+    .link-inicial, .link-dentro { font-size: 16px; }
+    .maine { height: auto; width: 70%; }
+}
+
+@media (max-width: 375px) {
+    .link-inicial, .link-dentro { font-size: 14px; }
+    .maine { height: auto; width: 100%; margin: 0 auto; margin-left: 60px;}
+}
+
+@media (max-width: 426px) {
+    .link-inicial, .link-dentro { font-size: 13px; }
+}
+
+
+
+
+
+
