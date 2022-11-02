@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
 .titulo-banner {
@@ -35,30 +35,34 @@
 }
 
 @media (max-width: 2580px) {
-    .banner { height: 50vh; }
+    .banner { height: 45vh; }
 }
 
 @media (max-width: 1900px) {
-    .banner { height: 38vh; }
+    .banner { height: 45vh; }
 }
 
 @media (max-width: 1425px) {
-    .banner { height: 30vh; }
+    .banner { height: 45vh; }
 }
 
 @media (max-width: 1135px) {
-    .banner { height: 25vh; }
+    .banner { height: 35vh; }
+}
+
+@media (max-width: 1255px) {
+    .banner { height: 40vh; }
 }
 
 @media (max-width: 945px) {
-    .banner { height: 18vh; }
+    .banner { height: 30vh; }
 }
 
 @media (max-width: 690) {
-    .banner { height: 5vh; }
+    .banner { height: 15vh; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
     .banner { display: none; }
     .banner-secundario { display: block; height: 25vh; }
 }
