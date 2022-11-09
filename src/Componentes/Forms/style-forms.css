@@ -44,6 +44,7 @@ textarea {
     padding: 10px;
     font-size: 22px;
     float: right;
+    cursor: pointer;
 }
 
 .flex-form {
